@@ -1,4 +1,4 @@
-# sf_bike_share_spark
+# Predict num of bikes available for SF bike share
 This is a group project for using ML and H2O on Amazon AWS with Spark to predict the number of available bikes at each station 
 and a particular hour.
 
