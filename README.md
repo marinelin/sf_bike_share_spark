@@ -8,6 +8,8 @@ Tools Used:
 - Plotly
 
 Data Source: https://www.kaggle.com/benhamner/sf-bay-area-bike-share
+Data Size: 4GB
+- 
 
 Predict number of bikes available at a given station with:
 - station information
@@ -19,9 +21,14 @@ Predict number of bikes available at a given station with:
 Data Pipeline:
 - [Exploratory Data Analysis](EDA_preprocessing.ipynb)
 - [Data Visulization with Plotly](EDA_visulization.ipynb)
-- [Data Preprocessing and Spark Machine Learning Models on AWS EMR Clusters](EMR_SparkML_modelling.ipynb)
+- [Data Preprocessing + Spark ML Models on AWS EMR Clusters](EMR_SparkML_modelling.ipynb)
 - [H2O ML, Deep Learning, and Auto ML](H2O_modelling.ipynb)
 
-For Spark ML Models, our best model is Random Forest, with an rmse of 2.7  
+Prediction Result: 
+![](graphs/prediction.png)
+- For Spark ML Models, our best model is Random Forest, with an RMSE of 2.7  
+- For H2O Models, AutoML's XGBoost model has an RMSE of 2.38
+
+![Run Time Comaprison on differet AWS EMR Clusters](graphs/runtime.png)
 
 Group member: Esther Liu, Marine Lin, Akankasha, Lexie
