@@ -9,7 +9,10 @@ Tools Used:
 
 Data Source: https://www.kaggle.com/benhamner/sf-bay-area-bike-share
 Data Size: 4GB
-- 
+- station.csv - Contains data that represents a station where users can pickup or return bikes.
+- status.csv - Data about the number of bikes and docks available for given station and minute.
+- trips.csv - Data about individual bike trips
+- weather.csv - Data about the weather on a specific day for certain zip codes
 
 Predict number of bikes available at a given station with:
 - station information
@@ -29,6 +32,7 @@ Prediction Result:
 - For Spark ML Models, our best model is Random Forest, with an RMSE of 2.7  
 - For H2O Models, AutoML's XGBoost model has an RMSE of 2.38
 
-![Run Time Comaprison on differet AWS EMR Clusters](graphs/runtime.png)
+Run Time Comaprison on differet AWS EMR Clusters:
+![](graphs/runtime.png)
 
 Group member: Esther Liu, Marine Lin, Akankasha, Lexie
